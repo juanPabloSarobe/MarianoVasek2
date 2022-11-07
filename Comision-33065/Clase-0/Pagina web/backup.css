@@ -1,0 +1,883 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background-nav {
+    background-color: white;
+    color: blue;
+    font-size: 20px;
+    border: solid rgb(118, 119, 130) 2px;
+}
+
+.nav-link {
+    text-decoration: none;
+
+}
+
+.img-logo {
+    width: 100px;
+}
+
+
+.collapse {
+    display: flex;
+    justify-content: center;
+}
+
+.navcofig a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(50, 64, 92);
+    font-weight: bold;
+}
+
+
+
+
+/* Parte inferior del header*/
+
+.seccion1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: solid rgb(118, 119, 130) 2px;
+}
+
+.localizacion {
+    display: flex;
+}
+
+.localizacion img {
+    width: 30px;
+    height: 30px;
+}
+
+.telefono {
+    display: flex;
+}
+
+.telefono img {
+    width: 30px;
+    height: 30px;
+}
+
+.seccion1 p {
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(50, 64, 92);
+}
+
+/* Termino el header */
+
+/* Comienza el main*/
+
+.h1p {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 35px;
+    color: rgb(50, 64, 92);
+    border: solid rgb(233, 97, 69) 4px;
+}
+
+.imgh1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-top: 15px;
+}
+
+.h2p {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 35px;
+    color: rgb(50, 64, 92);
+    border: solid rgb(233, 97, 69) 4px;
+}
+
+.imgh2 {
+    text-align: center;
+}
+
+.gralp {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 35px;
+    color: rgb(50, 64, 92);
+    border: solid rgb(233, 97, 69) 4px;
+    margin-top: 20px;
+}
+
+.loremp {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
+.loremp p {
+    border: solid rgb(50, 64, 92) 2px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+/* Termino el main*/
+
+
+/*Tipos de construcciones*/
+
+.seccionh3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 35px;
+    color: rgb(50, 64, 92);
+    border: solid rgb(233, 97, 69) 2px;
+    margin-top: 30px;
+}
+
+.lorem {
+    display: flex;
+    padding: 30px;
+}
+
+.lorem p {
+    padding: 30px;
+    border: solid rgb(50, 64, 92) 2px;
+    margin: 10px;
+}
+
+/*FOOTER*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: solid rgb(118, 119, 130) 2px;
+    background-color: rgb(248, 220, 168);
+
+
+}
+
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    color: rgb(50, 64, 92);
+
+}
+
+.columnauno {
+    display: flex;
+
+    flex-direction: column;
+
+
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+}
+
+.todoslogos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.solologo {
+    height: 60px;
+    width: 180px;
+
+}
+
+.ordenlogos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+
+
+}
+
+
+.oficina {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.fabrica {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+
+
+
+.tel {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.ventas {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.correo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+/* FIN DEL FOOTER*/
+
+
+
+/*TIPOLOGIAS*/
+
+
+.listtipo a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(50, 64, 92);
+}
+
+.list-inline {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    border: solid rgb(118, 119, 130) 2px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.vindu a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(50, 64, 92);
+}
+
+
+.vindu {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border: solid rgb(118, 119, 130) 2px;
+}
+
+.pindu {
+    text-align: center;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: solid rgb(118, 119, 130) 1px;
+}
+
+.ordenindu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 9px;
+    grid-row-gap: 10px;
+    margin-top: 10px;
+}
+
+.vimin a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(50, 64, 92);
+}
+
+.vimin {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border: solid rgb(118, 119, 130) 2px;
+    margin-top: 15px;
+}
+
+.pmin {
+    text-align: center;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: solid rgb(118, 119, 130) 1px;
+}
+
+.ordenmin {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 9px;
+    grid-row-gap: 10px;
+    margin-top: 10px;
+}
+
+
+.vict a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(50, 64, 92);
+}
+
+.vict {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border: solid rgb(118, 119, 130) 2px;
+    margin-top: 15px;
+}
+
+.pct {
+    text-align: center;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: solid rgb(118, 119, 130) 1px;
+}
+
+.ordenct {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+
+/*FINALIZO TIPOLOGIAS*/
+
+/*CONTINUA ENTREGAS*/
+
+.tituloentregas {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.tituloentregas p {
+    border: solid rgb(118, 119, 130) 2px;
+}
+
+.mariarosa {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.mariarosa p {
+    border: solid rgb(118, 119, 130) 2px;
+}
+
+/*Modificacion de entrega Maria Rosa a gird*/
+.entregamariarosa {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    margin-top: 10px;
+}
+
+.imgmrosa {
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+    box-shadow: -10px 8px 32px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -10px 8px 32px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -10px 8px 32px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+.cuartoitem {
+    grid-column: 1/ span 2;
+}
+
+
+
+.sergio {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.sergio p {
+    border: solid rgb(118, 119, 130) 2px;
+}
+
+
+.entregasergio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-top: 20px;
+    justify-items: center;
+}
+
+.imgsergio {
+
+    object-fit: cover;
+    width: 75%;
+    box-shadow: -10px 8px 32px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -10px 8px 32px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -10px 8px 32px 0px rgba(0, 0, 0, 0.75);
+    margin-bottom: 30px;
+}
+
+/*FINALIZO ENTREGAS*/
+
+
+/* CONTINUA EMPRESA */
+
+
+.tituloempresa {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.tituloempresa p {
+    border: solid rgb(118, 119, 130) 2px;
+}
+
+.reseña {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.reseña p {
+    border: solid rgb(118, 119, 130) 2px;
+}
+
+.loremempresa {
+    border: solid rgb(118, 119, 130) 2px;
+    margin-top: 50px;
+}
+
+/* Modificacion y aplicacion de gird en galeria de fotos de empresa*/
+.imagenesdeempresa {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+
+.imgempre {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -webkit-box-shadow: -6px 5px 16px 0px rgba(0, 0, 0, 0.75);
+    -webkit-caja-sombra: -6px 5px 16px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -6px 5px 16px 0px rgba(0, 0, 0, 0.75);
+    margin-top: 15px;
+}
+
+
+
+.fab {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.fab p {
+    border: solid rgb(118, 119, 130) 2px;
+}
+
+.loremfca {
+    border: solid rgb(118, 119, 130) 2px;
+    margin-top: 50px;
+}
+
+/*Modificacion a gird de img fabrica*/
+
+.imgdefabrica {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 3px;
+    grid-row-gap: 3px;
+    margin-top: 15px;
+    justify-items: center;
+}
+
+.imgfab {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    box-shadow: -15px 11px 65px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -15px 11px 65px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -15px 11px 65px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+/*TERMINO EMPRESA*/
+
+
+/* CONTINUA CONTACTO*/
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.contacto p {
+    border: solid rgb(118, 119, 130) 2px;
+}
+
+.imgdeform {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.infocontacto {
+    display: flex;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(50, 64, 92);
+    margin-top: 50px;
+    border: solid rgb(118, 119, 130) 2px;
+}
+
+.infocontacto ul {
+    padding: 20px;
+}
+
+.infocontacto a {
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+.iframe {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+
+
+/* MEDIA QUERY MOBILE*/
+
+@media only screen and (max-width:450px) {
+
+    /* media del header*/
+
+    .localizacion img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .telefono img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .seccion1 p {
+        font-size: 10px;
+    }
+
+    /* media del main*/
+
+    .h1p p {
+        font-size: 15px;
+    }
+
+    .h2p p {
+        font-size: 15px;
+    }
+
+    .gralp p {
+        font-size: 15px;
+    }
+
+    .loremp p {
+        font-size: 10px;
+    }
+
+    /*Media query tipologias*/
+    .list-inline {
+        font-size: 14px;
+    }
+
+    .vindu {
+        font-size: 14px;
+    }
+
+    .pindu {
+        font-size: 10px;
+    }
+
+    .ordenindu {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+    .vimin {
+        font-size: 14px;
+    }
+
+    .pmin {
+        font-size: 10px;
+    }
+
+    .ordenmin {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+    .vict {
+        font-size: 14px;
+    }
+
+    .pct {
+        font-size: 10px;
+    }
+
+    .ordenct {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+    /* Termino media query de tipologias*/
+
+    /* Termino la media del main*/
+
+    /* Media del footer */
+
+    footer p {
+        font-size: 10px;
+    }
+
+    footer img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .solologo {
+        height: 30px;
+        width: 90px;
+    }
+
+    /* Termino media footer*/
+
+}
+
+/* MEDIA QUERY TABLET*/
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+
+    .localizacion img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .telefono img {
+        width: 14px;
+        height: 14px;
+    }
+
+    .seccion1 p {
+        font-size: 12px;
+    }
+
+    /* media del main*/
+
+    .h1p p {
+        font-size: 18px;
+    }
+
+    .h2p p {
+        font-size: 18px;
+    }
+
+    .gralp p {
+        font-size: 18px;
+    }
+
+    .loremp p {
+        font-size: 12px;
+    }
+
+
+    /* Media Query tablet Tipologias*/
+
+    .list-inline {
+        font-size: 14px;
+    }
+
+    .vindu {
+        font-size: 16px;
+    }
+
+    .pindu {
+        font-size: 13px;
+    }
+
+    .ordenindu {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+    .vimin {
+        font-size: 16px;
+    }
+
+    .pmin {
+        font-size: 13px;
+    }
+
+    .ordenmin {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+    .vict {
+        font-size: 16px;
+    }
+
+    .pct {
+        font-size: 13px;
+    }
+
+    .ordenct {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+    /* Termino Media Query de Tipologias*/
+
+    /* Termino la media del main*/
+
+    /* Media del footer */
+
+    footer p {
+        font-size: 12px;
+    }
+
+    footer img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .solologo {
+        height: 45px;
+        width: 105px;
+    }
+
+    /* Termino media footer*/
+}
+
+/*Transformaciones y Transiciones*/
+
+.h1p:hover {
+    transform: scale(1.5);
+    transition: all 1s linear;
+}
+
+.h2p:hover {
+    transform: scale(1.5);
+    transition: all 1s linear;
+}
+
+.gralp:hover {
+    transform: scale(1.5);
+    transition: all 1s linear;
+}
+
+.navbar a:hover {
+    color: rgb(233, 97, 69);
+    transform: scale(1.2);
+    transition: all 2s;
+}
+
+.vindu:hover{
+    transform: scale(1.5);
+    transition: all 1.5 ease-in;
+}
+
+.vimin:hover{
+    transform: scale(1.5);
+    transition: all 1.5 ease-in;
+}
+
+.vict:hover{
+    transform: scale(1.5);
+    transition: all 1.5 ease-in;
+}
+
+

@@ -1,0 +1,16 @@
+
+Extension para autograbado LiveServer en visual
+
+Para los iconos
+https://Convertion.ico
+https://convertico.com/
+
+Para averiguar las etiquetas
+Developer.mozilla.org
+www.weschool.com
+
+Extension Beatyfull para el format de la codificacion
+Prettier
+
+Error 404
+git config --global core.autocrlf false 

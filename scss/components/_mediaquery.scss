@@ -1,0 +1,332 @@
+@media only screen and (max-width:450px) {
+    .h1p p {
+        font-size: 15px;
+    }
+
+    .h2p p {
+        font-size: 15px;
+    }
+
+    .gralp p {
+        font-size: 15px;
+    }
+
+    .loremp p {
+        font-size: 10px;
+    }
+}
+
+// Termino el media del main
+// Sigue el media de tipologias
+@media only screen and (max-width:450px) {
+    .list-inline-item {
+        font-size: 14px;
+    }
+
+    .vindu {
+        font-size: 14px;
+    }
+
+    .pindu {
+        font-size: 10px;
+    }
+
+    .ordenindu {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+    .vimin {
+        font-size: 14px;
+    }
+
+    .pmin {
+        font-size: 10px;
+    }
+
+    .ordenmin {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+    .vict {
+        font-size: 14px;
+    }
+
+    .pct {
+        font-size: 10px;
+    }
+
+    .ordenct {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+}
+
+
+// Media de Entregas //
+@media only screen and (max-width:450px) {
+    main {
+        .tituloe {
+            .tituloentregas {
+                font-size: 15px;
+            }
+        }
+
+        .generalmariarosa {
+            .mariarosa {
+                font-size: 12px;
+            }
+        }
+
+        .entregamariarosa {
+            display: grid;
+            grid-template-columns: 1fr;
+            // grid-template-rows: repeat(5, 1fr);
+        }
+
+        .generalsergio {
+            .sergio {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+// Termino el media de Entregas
+// Continua el media de Empresa
+@media only screen and (max-width:450px) {
+    main {
+        .tituloe {
+            .tituloempresa {
+                font-size: 17px;
+            }
+        }
+
+        .reseña {
+            font-size: 14px;
+        }
+
+        .loremempresa {
+            font-size: 12px;
+        }
+
+        .imagenesdeempresa {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(3, 1fr);
+
+        }
+
+        .fabricageneral {
+            .fab {
+                font-size: 17px;
+            }
+
+            .loremfca {
+                font-size: 12px;
+            }
+
+
+            .imgdefabrica {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(6, 1fr);
+            }
+        }
+    }
+
+
+}
+
+@media only screen and (max-width:450px) {
+    .contactogeneral {
+        .contacto {
+            font-size: 17px;
+        }
+    }
+
+    .infocontacto {
+        font-size: 12px;
+    }
+
+}
+
+
+
+
+
+
+// Media query de tablet
+
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+    .h1p p {
+        font-size: 18px;
+    }
+
+    .h2p p {
+        font-size: 18px;
+    }
+
+    .gralp p {
+        font-size: 18px;
+    }
+
+    .loremp p {
+        font-size: 12px;
+    }
+}
+
+// Termino el media del main
+// Sigue el media de tipologias
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+    .list-inline-item {
+        font-size: 14px;
+    }
+
+    .vindu {
+        font-size: 16px;
+    }
+
+    .pindu {
+        font-size: 13px;
+    }
+
+    .ordenindu {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+    .vimin {
+        font-size: 16px;
+    }
+
+    .pmin {
+        font-size: 13px;
+    }
+
+    .ordenmin {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+    .vict {
+        font-size: 16px;
+    }
+
+    .pct {
+        font-size: 13px;
+    }
+
+    .ordenct {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+}
+
+// Termino el media de Tipologias
+// Continua el media de Entregas
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+    main {
+        .tituloe {
+            .tituloentregas {
+                font-size: 20px;
+            }
+        }
+
+        .generalmariarosa {
+            .mariarosa {
+                font-size: 15px;
+            }
+        }
+
+        .entregamariarosa {
+            display: grid;
+            grid-template-columns: 1fr;
+            // grid-template-rows: repeat(5, 1fr);
+        }
+
+        .generalsergio {
+            .sergio {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+// Termino el media de Entregas
+// Continua el media de Empresa
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+    main {
+        .tituloe {
+            .tituloempresa {
+                font-size: 20px;
+            }
+        }
+
+        .reseña {
+            font-size: 16px;
+        }
+
+        .loremempresa {
+            font-size: 14px;
+        }
+
+        .imagenesdeempresa {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(3, 1fr);
+
+        }
+
+        .fabricageneral {
+            .fab {
+                font-size: 20px;
+            }
+
+            .loremfca {
+                font-size: 14px;
+            }
+
+
+            .imgdefabrica {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(6, 1fr);
+            }
+        }
+    }
+
+}
+
+// Termino media de Empresa
+// Continua media de Contactos
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+    .contactogeneral {
+        .contacto {
+            font-size: 20px;
+        }
+    }
+
+    .infocontacto {
+        font-size: 14px;
+    }
+}

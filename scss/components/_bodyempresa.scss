@@ -1,0 +1,74 @@
+@import '../base/mixin';
+
+.tituloempresa {
+    @include empresa (flex,center,50px,50px, Arial Helvetica sans-serif,normal,35px);
+   
+    // p {
+    //     border: solid rgb(118, 119, 130) 2px;
+    // }
+}
+
+.reseña {
+    @include empresa (flex,center,50px,50px, Arial Helvetica sans-serif,normal,20px)
+    ;
+    // p {
+    //     border: solid rgb(118, 119, 130) 2px;
+    // }
+}
+
+.loremempresa {
+    border: solid rgb(118, 119, 130) 2px;
+    margin-top: 50px;
+}
+
+.imagenesdeempresa {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        -webkit-box-shadow: -6px 5px 16px 0px rgba(0, 0, 0, 0.75);
+        -webkit-caja-sombra: -6px 5px 16px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -6px 5px 16px 0px rgba(0, 0, 0, 0.75);
+        margin-top: 15px;
+    }
+}
+
+.fabricageneral {
+    .fab {
+        @include empresa (flex,center,50px,50px, Arial Helvetica sans-serif,normal,35px);
+        
+        // p {
+        //     border: solid rgb(118, 119, 130) 2px;
+        // }
+    }
+
+    .loremfca {
+        border: solid rgb(118, 119, 130) 2px;
+        margin-top: 50px;
+    }
+
+    .imgdefabrica {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-column-gap: 3px;
+        grid-row-gap: 3px;
+        margin-top: 15px;
+        justify-items: center;
+
+        img {
+            width: 90%;
+            height: 90%;
+            object-fit: cover;
+            box-shadow: -15px 11px 65px 0px rgba(0, 0, 0, 0.75);
+            -webkit-box-shadow: -15px 11px 65px 0px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: -15px 11px 65px 0px rgba(0, 0, 0, 0.75);
+        }
+    }
+}

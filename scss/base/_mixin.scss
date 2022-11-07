@@ -1,0 +1,18 @@
+@mixin mixtipo ($text-aling,$margin-top,$font-family,$font-size,$border) {
+    text-align: $text-aling;
+    margin-top: $margin-top;
+    font-family: $font-family;
+    font-size: $font-size;
+    border: $border;
+
+}
+
+@mixin empresa ($display,$justify-content,$margin-top,$padding-left,$font-family,$font-style,$font-size) {
+    display: $display;
+    justify-content: $justify-content;
+    margin-top: $margin-top;
+    padding-left: $padding-left;
+    font-family: $font-family;
+    font-style: $font-style;
+    font-size: $font-size;
+}

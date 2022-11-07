@@ -1,0 +1,771 @@
+@charset "UTF-8";
+.header .background-nav {
+  background-color: white;
+  color: blue;
+  font-size: 20px;
+  border: solid rgb(118, 119, 130) 2px;
+}
+.header .background-nav .img-logo {
+  width: 100px;
+}
+.header .background-nav .collapse {
+  display: flex;
+  justify-content: center;
+}
+.header .background-nav .navcofig a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(50, 64, 92);
+  font-weight: bold;
+}
+.header .background-nav .navcofig a:hover {
+  color: rgb(233, 97, 69);
+  transform: scale(1.2);
+  transition: all 2s;
+}
+.header .seccion1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: solid rgb(118, 119, 130) 2px;
+}
+.header .seccion1 .localizacion {
+  display: flex;
+}
+.header .seccion1 .localizacion img {
+  width: 30px;
+  height: 30px;
+}
+.header .seccion1 .telefono {
+  display: flex;
+}
+.header .seccion1 .telefono img {
+  width: 30px;
+  height: 30px;
+}
+.header .seccion1 .seccion1 p {
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(50, 64, 92);
+}
+@media only screen and (max-width: 450px) {
+  .header .seccion1 .localizacion img {
+    width: 12px;
+    height: 12px;
+  }
+  .header .seccion1 .telefono img {
+    width: 12px;
+    height: 12px;
+  }
+  .header .seccion1 p {
+    font-size: 10px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  .header .seccion1 .localizacion img {
+    width: 15px;
+    height: 15px;
+  }
+  .header .seccion1 .telefono img {
+    width: 14px;
+    height: 14px;
+  }
+  .header .seccion1 p {
+    font-size: 12px;
+  }
+}
+
+footer .columnados .correo, footer .columnados .ventas, footer .columnados .tel, footer .columnauno .alinearcont .fabrica, footer .columnauno .alinearcont .oficina {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+.gralseccion .gralp .h3, .h2section .h2p .h2 {
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 35px;
+  color: rgb(50, 64, 92);
+  border: solid rgb(233, 97, 69) 4px;
+}
+
+footer .columnados img, footer .columnauno .alinearcont img, footer .columnauno .todoslogos img {
+  width: 30px;
+  height: 30px;
+}
+
+.h1section .h1p .h1 {
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 35px;
+  color: rgb(50, 64, 92);
+  border: solid rgb(233, 97, 69) 4px;
+}
+.h1section .h1p .h1:hover {
+  transform: scale(1.5);
+  transition: all 1s linear;
+}
+.h1section .imgh1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin-top: 15px;
+}
+
+.h2section .h2p .h2:hover {
+  transform: scale(1.5);
+  transition: all 1s linear;
+}
+.h2section .imgh2 {
+  text-align: center;
+}
+
+.gralseccion .gralp .h3:hover {
+  transform: scale(1.5);
+  transition: all 1s linear;
+}
+.gralseccion .loremp {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
+.gralseccion .loremp p {
+  border: solid rgb(50, 64, 92) 2px;
+  margin-top: 20px;
+}
+
+footer .columnados .correo, footer .columnados .ventas, footer .columnados .tel, footer .columnauno .alinearcont .fabrica, footer .columnauno .alinearcont .oficina {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+.h2section .h2p .h2, .gralseccion .gralp .h3 {
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 35px;
+  color: rgb(50, 64, 92);
+  border: solid rgb(233, 97, 69) 4px;
+}
+
+footer .columnados img, footer .columnauno .alinearcont img, footer .columnauno .todoslogos img {
+  width: 30px;
+  height: 30px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: solid rgb(118, 119, 130) 2px;
+  background-color: rgb(245, 237, 230);
+}
+footer .columnauno {
+  display: flex;
+  flex-direction: column;
+}
+footer .columnauno .todoslogos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+footer .columnauno .todoslogos .solologo {
+  height: 60px;
+  width: 180px;
+}
+footer .columnauno .alinearcont p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  color: rgb(50, 64, 92);
+}
+footer .columnados p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  color: rgb(50, 64, 92);
+}
+.listtipo a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(50, 64, 92);
+}
+.listtipo .list-inline {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  border: solid rgb(118, 119, 130) 2px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.vindu {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial Helvetica sans-serif;
+  font-size: 25px;
+  border: rgb(118, 119, 130) 2px;
+}
+.vindu:hover {
+  transform: scale(1.5);
+  transition: all 1.5 ease-in;
+}
+.vindu a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(50, 64, 92);
+}
+
+.pindu {
+  text-align: center;
+  margin-top: 25px;
+  font-family: Arial Helvetica sans-serif;
+  font-size: 15px;
+  border: rgb(118, 119, 130) 1px;
+}
+
+.ordenindu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 9px;
+  grid-row-gap: 10px;
+  margin-top: 10px;
+}
+
+.vimin {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial Helvetica sans-serif;
+  font-size: 25px;
+  border: rgb(118, 119, 130) 2px;
+}
+.vimin:hover {
+  transform: scale(1.5);
+  transition: all 1.5 ease-in;
+}
+.vimin a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(50, 64, 92);
+}
+
+.pmin {
+  text-align: center;
+  margin-top: 25px;
+  font-family: Arial Helvetica sans-serif;
+  font-size: 15px;
+  border: rgb(118, 119, 130) 1px;
+}
+
+.ordenmin {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 9px;
+  grid-row-gap: 10px;
+  margin-top: 10px;
+}
+
+.vict {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial Helvetica sans-serif;
+  font-size: 25px;
+  border: rgb(118, 119, 130) 2px;
+}
+.vict:hover {
+  transform: scale(1.5);
+  transition: all 1.5 ease-in;
+}
+.vict a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(50, 64, 92);
+}
+
+.pct {
+  text-align: center;
+  margin-top: 25px;
+  font-family: Arial Helvetica sans-serif;
+  font-size: 15px;
+  border: rgb(118, 119, 130) 1px;
+}
+
+.ordenct {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.tituloentregas {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 35px;
+}
+
+.generalmariarosa .mariarosa {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding-left: 50px;
+  font-family: Arial Helvetica sans-serif;
+  font-style: normal;
+  font-size: 20px;
+}
+.generalmariarosa .entregamariarosa {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  margin-top: 10px;
+}
+.generalmariarosa .entregamariarosa img {
+  width: 100%;
+  height: 100%;
+  justify-items: center;
+  box-shadow: -10px 8px 32px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -10px 8px 32px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -10px 8px 32px 0px rgba(0, 0, 0, 0.75);
+}
+.generalmariarosa .entregamariarosa .cuartoitem {
+  grid-column: 1/span 2;
+}
+
+.generalsergio .sergio {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding-left: 50px;
+  font-family: Arial Helvetica sans-serif;
+  font-style: normal;
+  font-size: 20px;
+}
+.generalsergio .entregasergio {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin-top: 20px;
+  justify-items: center;
+}
+.generalsergio .entregasergio img {
+  object-fit: cover;
+  width: 75%;
+  box-shadow: -10px 8px 32px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -10px 8px 32px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -10px 8px 32px 0px rgba(0, 0, 0, 0.75);
+  margin-bottom: 30px;
+}
+
+.tituloempresa {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding-left: 50px;
+  font-family: Arial Helvetica sans-serif;
+  font-style: normal;
+  font-size: 35px;
+}
+
+.reseña {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding-left: 50px;
+  font-family: Arial Helvetica sans-serif;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.loremempresa {
+  border: solid rgb(118, 119, 130) 2px;
+  margin-top: 50px;
+}
+
+.imagenesdeempresa {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+.imagenesdeempresa img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: -15px 11px 65px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -15px 11px 65px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -15px 11px 65px 0px rgba(0, 0, 0, 0.75);
+  margin-top: 15px;
+}
+
+.fabricageneral .fab {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding-left: 50px;
+  font-family: Arial Helvetica sans-serif;
+  font-style: normal;
+  font-size: 35px;
+}
+.fabricageneral .loremfca {
+  border: solid rgb(118, 119, 130) 2px;
+  margin-top: 50px;
+}
+.fabricageneral .imgdefabrica {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 3px;
+  grid-row-gap: 3px;
+  margin-top: 15px;
+  justify-items: center;
+}
+.fabricageneral .imgdefabrica img {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  box-shadow: -15px 11px 65px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -15px 11px 65px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -15px 11px 65px 0px rgba(0, 0, 0, 0.75);
+}
+
+.contactogeneral {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 35px;
+}
+
+.formreg {
+  width: 60%;
+  background: rgb(233, 97, 69);
+  padding: 10px;
+  margin: auto;
+  border-radius: 4px;
+  -webkit-box-shadow: 14px 9px 7px 0px rgb(207, 201, 207);
+  -moz-box-shadow: 14px 9px 7px 0px rgb(207, 201, 207);
+  box-shadow: 14px 9px 7px 0px rgb(207, 201, 207);
+  font-size: 17px;
+  font-style: inherit;
+  color: rgb(15, 52, 96);
+  font-weight: bold;
+}
+.formreg p {
+  margin-bottom: 5px;
+}
+.formreg .controls {
+  width: 95%;
+  background: rgb(253, 253, 248);
+  padding: 6px;
+  border-radius: 4px;
+  margin-bottom: 6px;
+  border: 1px solid rgb(246, 247, 244);
+  font-size: 17px;
+}
+.formreg .controls-1 {
+  width: 95%;
+  background: rgb(253, 253, 248);
+  padding-bottom: 80px;
+  border-radius: 4px;
+  margin-bottom: 6px;
+  border: 1px solid rgb(155, 161, 123);
+  font-size: 17px;
+}
+.formreg .botons {
+  width: 15%;
+  background: rgb(253, 253, 248);
+  border: none;
+  padding: 6px;
+  margin: 10px;
+}
+
+.infocontacto {
+  display: flex;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(50, 64, 92);
+  margin-top: 50px;
+}
+.infocontacto li ul {
+  padding: 20px;
+}
+.infocontacto li ul a {
+  display: flex;
+  width: 30px;
+  height: 30px;
+}
+
+.iframe {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+@media only screen and (max-width: 450px) {
+  .h1p p {
+    font-size: 15px;
+  }
+  .h2p p {
+    font-size: 15px;
+  }
+  .gralp p {
+    font-size: 15px;
+  }
+  .loremp p {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .list-inline-item {
+    font-size: 14px;
+  }
+  .vindu {
+    font-size: 14px;
+  }
+  .pindu {
+    font-size: 10px;
+  }
+  .ordenindu {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+  .vimin {
+    font-size: 14px;
+  }
+  .pmin {
+    font-size: 10px;
+  }
+  .ordenmin {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+  .vict {
+    font-size: 14px;
+  }
+  .pct {
+    font-size: 10px;
+  }
+  .ordenct {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  main .tituloe .tituloentregas {
+    font-size: 15px;
+  }
+  main .generalmariarosa .mariarosa {
+    font-size: 12px;
+  }
+  main .entregamariarosa {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  main .generalsergio .sergio {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  main .tituloe .tituloempresa {
+    font-size: 17px;
+  }
+  main .reseña {
+    font-size: 14px;
+  }
+  main .loremempresa {
+    font-size: 12px;
+  }
+  main .imagenesdeempresa {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+  main .fabricageneral .fab {
+    font-size: 17px;
+  }
+  main .fabricageneral .loremfca {
+    font-size: 12px;
+  }
+  main .fabricageneral .imgdefabrica {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+  }
+}
+@media only screen and (max-width: 450px) {
+  .contactogeneral .contacto {
+    font-size: 17px;
+  }
+  .infocontacto {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  .h1p p {
+    font-size: 18px;
+  }
+  .h2p p {
+    font-size: 18px;
+  }
+  .gralp p {
+    font-size: 18px;
+  }
+  .loremp p {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  .list-inline-item {
+    font-size: 14px;
+  }
+  .vindu {
+    font-size: 16px;
+  }
+  .pindu {
+    font-size: 13px;
+  }
+  .ordenindu {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+  .vimin {
+    font-size: 16px;
+  }
+  .pmin {
+    font-size: 13px;
+  }
+  .ordenmin {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+  .vict {
+    font-size: 16px;
+  }
+  .pct {
+    font-size: 13px;
+  }
+  .ordenct {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  main .tituloe .tituloentregas {
+    font-size: 20px;
+  }
+  main .generalmariarosa .mariarosa {
+    font-size: 15px;
+  }
+  main .entregamariarosa {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  main .generalsergio .sergio {
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  main .tituloe .tituloempresa {
+    font-size: 20px;
+  }
+  main .reseña {
+    font-size: 16px;
+  }
+  main .loremempresa {
+    font-size: 14px;
+  }
+  main .imagenesdeempresa {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+  main .fabricageneral .fab {
+    font-size: 20px;
+  }
+  main .fabricageneral .loremfca {
+    font-size: 14px;
+  }
+  main .fabricageneral .imgdefabrica {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  .contactogeneral .contacto {
+    font-size: 20px;
+  }
+  .infocontacto {
+    font-size: 14px;
+  }
+}
+footer .columnauno .alinearcont .oficina, footer .columnauno .alinearcont .fabrica, footer .columnados .tel, footer .columnados .ventas, footer .columnados .correo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+.h2section .h2p .h2, .gralseccion .gralp .h3 {
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 35px;
+  color: rgb(50, 64, 92);
+  border: solid rgb(233, 97, 69) 4px;
+}
+
+footer .columnauno .todoslogos img, footer .columnauno .alinearcont img, footer .columnados img {
+  width: 30px;
+  height: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

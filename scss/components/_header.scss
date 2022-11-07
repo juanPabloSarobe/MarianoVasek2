@@ -1,0 +1,101 @@
+.header {
+    .background-nav {
+        background-color: white;
+        color: blue;
+        font-size: 20px;
+        border: solid rgb(118, 119, 130) 2px;
+
+        .img-logo {
+            width: 100px;
+        }
+
+        .collapse {
+            display: flex;
+            justify-content: center;
+        }
+
+        .navcofig {
+            a {
+                text-decoration: none;
+                font-family: Arial, Helvetica, sans-serif;
+                font-style: normal;
+                font-size: 20px;
+                color: rgb(50, 64, 92);
+                font-weight: bold;
+
+                &:hover {
+                    color: rgb(233, 97, 69);
+                    transform: scale(1.2);
+                    transition: all 2s;
+                }
+            }
+
+        }
+    }
+
+    .seccion1 {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        border: solid rgb(118, 119, 130) 2px;
+
+        .localizacion {
+            display: flex;
+        }
+
+        .localizacion img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .telefono {
+            display: flex;
+        }
+
+        .telefono img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .seccion1 p {
+            padding: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-size: 20px;
+            color: rgb(50, 64, 92);
+        }
+
+        @media only screen and (max-width:450px) {
+            .localizacion img {
+                width: 12px;
+                height: 12px;
+            }
+
+            .telefono img {
+                width: 12px;
+                height: 12px;
+            }
+
+            p {
+                font-size: 10px;
+            }
+        }
+
+        @media only screen and (min-width: 451px) and (max-width: 960px) {
+
+            .localizacion img {
+                width: 15px;
+                height: 15px;
+            }
+
+            .telefono img {
+                width: 14px;
+                height: 14px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+}
